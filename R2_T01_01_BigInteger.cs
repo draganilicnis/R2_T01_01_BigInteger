@@ -5,19 +5,20 @@
 // https://arena.petlja.org/competition/r2-01-korektnost-01-sabiranje#tab_248
 // https://petlja.org/biblioteka/r/Problems/SUB1
 // https://petlja.org/biblioteka/r/Problems/-12
+// https://github.com/draganilicnis/R2_T01_01_BigInteger/blob/main/R2_T01_01_BigInteger.cs
 
 using System;
 using System.Numerics;
 
-class Program
+class R2_T01_01_Korektnost_01_BigInteger
 {
     static void Main()
     {
-        BigInteger A = BigInteger.Parse(Console.ReadLine());
-        BigInteger B = BigInteger.Parse(Console.ReadLine());
+        BigInteger a = BigInteger.Parse(Console.ReadLine());
+        BigInteger b = BigInteger.Parse(Console.ReadLine());
         
-        BigInteger C = A + B;
+        BigInteger c = a + b;
         
-        Console.WriteLine(C);
+        Console.WriteLine(c);
     }
 }
